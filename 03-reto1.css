@@ -1,0 +1,24 @@
+h1{
+    color:blue;
+    font-size: 100%;
+}
+h2{
+    color: gray;
+    font-size: 90%;
+
+}
+.next{
+    font-weight:bold;
+    border: 2px solid brown;
+    font-family: cursive;
+    background-color: blue;
+}
+body{
+    text-align: center;
+}
+:invalid{
+    box shadow:border: 3px red;  
+}
+input{
+    margin-bottom:1%;
+}

@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <title>RETO 2</title>
+     <link rel="stylesheet" href="./04-reto2.css"
+ </head>
+ <body>
+     <header>
+         <h1>Sing Up</h1>
+     </header>
+     <main>
+         <section>
+             <form>
+                <label>First name</label><br>
+                <input 
+                    type="text"
+                    pattern=".{6,99}" >
+                <br>
+                <label>Age</label><br>
+                <input maxlength="120" 
+                    value=""
+                    type="number" >  
+                <br>
+                <label>Income</label><br>
+                <input 
+                    type="number" 
+
+                >
+                <br>
+                <label>More Info</label><br>
+                <textarea > 
+                </textarea>
+                <br>
+                <label>Gender</label>
+					<br>
+					<input
+						type="radio"
+						name="genero"
+						value="M">
+						Male
+					</label>
+					<input
+						type="radio"
+						name="genero"
+						value="F"
+					>   Female
+					<input
+						type="radio"
+						name="genero"
+						value="ND">
+                        Trans
+                    <br>
+                    <label>Plan</label>
+					<br>
+					<select>
+						<option
+							selected
+							disabled
+						>
+							Select Plan
+						</option>
+						<option value="A">
+							Plan A
+						</option>
+						<option value="B">
+							Plan B
+						</option>
+						<option value="C">
+                            Plan C
+                        </option>   
+                    </select>
+                    <br>
+                    <label></label>
+                    <input 
+						type="checkbox"
+						value="suscribe"
+					>Suscribe to Newsletter
+                    <br>
+                    <input class="Update" type="submit"
+					value ="Update">
+             </form>
+         </section>
+     </main>
+ </body>
+ </html>
